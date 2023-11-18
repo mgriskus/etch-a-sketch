@@ -9,11 +9,15 @@
   display: flex;
   flex-wrap: wrap;
   user-select: none;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .square {
   height: var(--square-size);
   width: var(--square-size);
   user-select: none;
+}
+
+.colored.square {
+  background-color: black;
 }
