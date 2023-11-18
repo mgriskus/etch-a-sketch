@@ -3,23 +3,17 @@
   --square-size: calc(var(--grid-size) / 16);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .grid {
   height: var(--grid-size);
   width: var(--grid-size);
   display: flex;
   flex-wrap: wrap;
   user-select: none;
+  border: 1px solid black;
 }
 
 .square {
   height: var(--square-size);
   width: var(--square-size);
-  border: 4px solid black;
   user-select: none;
 }
